@@ -20,10 +20,7 @@ int main(int argc, const char * argv[]) {
         
     toyota.model = @"Toyota Camry";
         NSLog(@"changed car to %@", toyota.model);
-        
-        [toyota drive];
-        
-        
+ 
     }
     return 0;
 }
