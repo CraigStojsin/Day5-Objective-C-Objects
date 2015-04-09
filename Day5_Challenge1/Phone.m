@@ -10,7 +10,29 @@
 
 @implementation Phone
 
+-(NSString *) sendText {
+    return
+}
 
+-(NSString *) checkEmail{
+    return
+}
+
+-(NSString *) makeCalls{
+ 
+    return
+}
+
+-(NSString *) surfInternet{
+    
+    return
+}
+
+-(NSString *) playGames{
+    
+    return
+}
 
 
 @end
+
