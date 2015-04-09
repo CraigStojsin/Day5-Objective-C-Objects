@@ -8,12 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Car : NSObject
+@interface Car : NSObject {
+    // Protected instance variables (not recommended)
+}
 
-@property (copy) NSString* model;
+@property (copy) NSString *model;
 
--(id)initWithModel:(NSString *)aModel;
-
-
+- (void)drive;
 
 @end
+
+
+
