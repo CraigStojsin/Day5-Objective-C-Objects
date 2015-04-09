@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3940679A1AD70DD90090DCD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 394067991AD70DD90090DCD6 /* main.m */; };
 		394067A21AD716420090DCD6 /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 394067A11AD716420090DCD6 /* Phone.m */; };
+		394067A61AD71CCA0090DCD6 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 394067A51AD71CCA0090DCD6 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +27,10 @@
 /* Begin PBXFileReference section */
 		394067961AD70DD90090DCD6 /* Day5_Challenge1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day5_Challenge1; sourceTree = BUILT_PRODUCTS_DIR; };
 		394067991AD70DD90090DCD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		394067A01AD716420090DCD6 /* Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
-		394067A11AD716420090DCD6 /* Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Phone.m; sourceTree = "<group>"; };
+		394067A01AD716420090DCD6 /* Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Phone.h; path = ../Phone.h; sourceTree = "<group>"; };
+		394067A11AD716420090DCD6 /* Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Phone.m; path = ../Phone.m; sourceTree = "<group>"; };
+		394067A41AD71CCA0090DCD6 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		394067A51AD71CCA0090DCD6 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +47,8 @@
 		3940678D1AD70DD90090DCD6 = {
 			isa = PBXGroup;
 			children = (
-				394067A01AD716420090DCD6 /* Phone.h */,
-				394067A11AD716420090DCD6 /* Phone.m */,
-				394067981AD70DD90090DCD6 /* Day5_Challenge1 */,
+				394067A31AD71C9E0090DCD6 /* Day_5Challenge3and4 */,
+				394067981AD70DD90090DCD6 /* Day5_Challenge1and2 */,
 				394067971AD70DD90090DCD6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,12 +61,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		394067981AD70DD90090DCD6 /* Day5_Challenge1 */ = {
+		394067981AD70DD90090DCD6 /* Day5_Challenge1and2 */ = {
 			isa = PBXGroup;
 			children = (
+				394067A01AD716420090DCD6 /* Phone.h */,
+				394067A11AD716420090DCD6 /* Phone.m */,
 				394067991AD70DD90090DCD6 /* main.m */,
 			);
+			name = Day5_Challenge1and2;
 			path = Day5_Challenge1;
+			sourceTree = "<group>";
+		};
+		394067A31AD71C9E0090DCD6 /* Day_5Challenge3and4 */ = {
+			isa = PBXGroup;
+			children = (
+				394067A41AD71CCA0090DCD6 /* Car.h */,
+				394067A51AD71CCA0090DCD6 /* Car.m */,
+			);
+			name = Day_5Challenge3and4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				394067A61AD71CCA0090DCD6 /* Car.m in Sources */,
 				394067A21AD716420090DCD6 /* Phone.m in Sources */,
 				3940679A1AD70DD90090DCD6 /* main.m in Sources */,
 			);
