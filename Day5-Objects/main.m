@@ -13,14 +13,18 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
       
-        Car *toyota = [[Car alloc]init];
+   // [Car setDefaultModel:@"Nissan versa"];
+       
+        
+     //   Car *toyota = [[Car alloc]init];
         
         [toyota setModel:@"Toyota Corrola"];
         NSLog(@"Created a %@",[toyota model]);
         
     toyota.model = @"Toyota Camry";
         NSLog(@"changed car to %@", toyota.model);
- 
+        
+        
     }
     return 0;
 }
