@@ -10,12 +10,16 @@
 
 @interface Phone : NSObject
 
-// send text
-// check email
-// make calls
-// surf internet
-// play games
 
+-(NSString *) sendText;
+
+-(NSString *) checkEmail;
+
+-(NSString *) makeCalls;
+
+-(NSString *) surfInternet;
+
+-(NSString *) playGames;
 
 
 
