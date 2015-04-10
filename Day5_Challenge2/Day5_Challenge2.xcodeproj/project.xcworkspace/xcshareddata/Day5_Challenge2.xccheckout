@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F491FE07-9662-490B-9C2B-D7599FF93411</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Day5_Challenge2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>170C0F09E078F7ECD5E308103A4C2D4D4DEF9BBA</key>
+		<string>github.com:CraigStojsin/Day5-Objective-C-Objects.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Day5_Challenge2/Day5_Challenge2.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>170C0F09E078F7ECD5E308103A4C2D4D4DEF9BBA</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:CraigStojsin/Day5-Objective-C-Objects.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>170C0F09E078F7ECD5E308103A4C2D4D4DEF9BBA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>170C0F09E078F7ECD5E308103A4C2D4D4DEF9BBA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Day5-Objects</string>
+		</dict>
+	</array>
+</dict>
+</plist>
